@@ -1,0 +1,180 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*HEADER*/
+header{
+    position: fixed;
+    background-color: #000938;
+    color: #C8D0FA;
+    padding: 5px;
+    z-index: 1;
+}
+
+/* NOME DA EMPRESA */
+.btn-logo{
+    background-color: transparent;
+    color: #C8D0FA;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* --- BARRA DE BUSCA --- */
+
+.busca{
+    background-color: rgba(199, 207, 250,0.5);
+    color: white;
+    float: left;
+    padding-left: 5px;
+    width: 90%;
+    border-radius: 2px;
+    border: none;
+}
+
+input::placeholder{
+    color: white;
+    font-style: italic;
+}
+
+.busca:focus{
+    content:"";
+    display: block;
+    outline: none;
+}
+
+/*--- BOTÕES DA BARRA DE NAVEGAÇÃO ---*/
+
+.div-header{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-header{
+    background-color: rgba(199, 207, 250,0.5);
+    color: #fff;
+    border: #000938;
+    border-radius: 2px;
+    margin: 3px;
+    width: auto;
+}
+
+.btn-header:hover{
+    background-color: #000938;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.btn-header-active{
+    background-color: #3F4F9E;
+    color: white;
+    border: #000938;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+.btn-header-active:hover{
+    background-color: #000938;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+/*MAIN*/
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+}
+/*---IMAGEM DO TEXTO---*/
+.image-container {
+    position: relative;
+    width: 30%;
+    float: left; 
+    margin: 0 15px 15px 0;  
+    height: 35%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-container figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-container2 {
+    position: relative;
+    width: 35%;
+    float: right; 
+    margin: 0 15px 15px 0;  
+}
+
+.image-container2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-container2 figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.image-container2:hover figcaption:hover{
+    background: transparent;
+    color: transparent;
+    transition: all 1s ease-in;
+}
+
+/* TABELAS*/
+tr:nth-child(even) { 
+    background: #C8D0FA; 
+    color: #3F4F9E;
+}
+
+tr:hover{
+    background-color: #000938;
+    cursor: pointer;
+    color: #C8D0FA;
+}
+
+.thead{
+    background-color: #000938;
+    color: #fff;
+}
+
+/* FOOTER*/
+footer{
+    background-color: #000938;
+    color: #C8D0FA;
+    padding: 5px;
+    z-index: 1;
+}

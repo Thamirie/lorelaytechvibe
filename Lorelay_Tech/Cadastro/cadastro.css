@@ -1,0 +1,90 @@
+/* MAIN */
+
+.input{
+    background-color: transparent;
+    border: #000938 1px solid;
+}
+
+.input:focus{
+    border: 1px solid #000938;
+}
+
+/*Seções de cadastro*/
+
+.cadastro{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #000938;
+    color: #C8D0FA;
+    padding: 15px;
+    border-radius: 3px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.input-cadastro{
+    background-color: #000938;
+    color: #C8D0FA;
+    border: #C8D0FA 1px solid;
+    margin: 15px;
+    width: 90%;
+}
+
+.input-cadastro:focus{
+    border: #C8D0FA 1px solid;
+    background-color: transparent;
+    color: white;
+}
+
+.input-cadastro::placeholder{
+    color: #C8D0FA;
+}
+
+.btn-cadastro{
+    background-color: #C8D0FA;
+    color: #000938;
+    border: none;
+    border-radius: 2px;
+    margin: 3px;
+    margin-top: 5px;
+    font-size: large;
+}
+
+.btn-cadastro:hover{
+    background-color: #3F4F9E;
+    color: #C8D0FA;
+    border: none;
+    transition: all 1s ease-in;
+}
+
+option{
+    background: #C8D0FA;
+    color: #000938;
+    margin: 5px;
+}
+
+.tupin{
+    background-color: transparent;
+    color: #000938;
+    border: #000938 1px solid;
+    margin: 15px;
+    width: 90%;
+}
+
+.tupin:focus{
+    border: #000938 1px solid;
+    background-color: transparent;
+    color: #000938;
+}
+
+.tupin::placeholder{
+    color: #000938;
+}
+
+.tupin-select{
+    background-color: #C8D0FA;
+    color: #000938;
+    border: #000938 1px solid;
+    margin: 15px;
+    width: 90%;
+}
